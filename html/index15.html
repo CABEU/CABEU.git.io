@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Tabela Zebra</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+        </tr>
+        <tr>
+            <td>Dados 1</td>
+            <td>Dados 2</td>
+        </tr>
+        <tr>
+            <td>Dados 3</td>
+            <td>Dados 4</td>
+        </tr>
+        <tr>
+            <td>Dados 5</td>
+            <td>Dados 6</td>
+        </tr>
+    </table>
+</body>
+</html>
